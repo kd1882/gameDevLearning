@@ -1,0 +1,12 @@
+jcode: https://www.youtube.com/watch?v=OUOI6iCrmCk
+- general file setup
+
+https://www.youtube.com/watch?v=wu1cd1Qycz4
+- player setup, mouse and keyboard input controls
+- 3:00 goes over mouse setup
+- 8:00 some troubleshooting techniques for rectangles
+
+https://www.youtube.com/watch?v=paItMJuKwwM
+- start, goes over shooting and stuff
+
+
