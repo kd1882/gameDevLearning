@@ -12,10 +12,9 @@ clock = pygame.time.Clock()
 background = pygame.image.load("assets/graphics/environment/littleBunnyKungFuFu.png").convert_alpha()
 sprite_sheet_image = pygame.image.load('assets/graphics/character/sprite_move_test.png').convert_alpha()
 
-#### Need to figure out how to put into a class ####
-
 # Load spritesheet
 sprite_sheet = Spritesheet(sprite_sheet_image)
+
 
 animation_list = []
 animation_steps = [1, 2, 1, 2, 1, 2, 1, 2]
@@ -32,32 +31,12 @@ for animation in animation_steps:
         step_counter += 1
     animation_list.append(temp_img_list)
 
-#### End Function ####
-
 run = True
 while run:
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             run = False
-
-    userInput = pygame.key.get_pressed()
-    if userInput[pygame.K_LEFT]:
-        action = 5
-        frame = 0
-        # x -= PLAYER_SPEED
-    if userInput[pygame.K_RIGHT]:
-        action = 7
-        frame = 0
-        # x += PLAYER_SPEED
-    if userInput [pygame.K_UP]:
-        action = 3
-        frame = 0
-        # y -= PLAYER_SPEED
-    if userInput [pygame.K_DOWN]:
-        action = 1
-        frame = 0
-        # y += PLAYER_SPEED
     
     #show background
     screen.blit(background, (0,0))

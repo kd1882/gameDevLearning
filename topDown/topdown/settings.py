@@ -2,6 +2,7 @@
 WIDTH = 1280
 HEIGHT = 720
 FPS = 60
+BLACK = (0, 0, 0)
 
 # Player settings
 PLAYER_START_X = 400
@@ -13,6 +14,9 @@ GUN_OFFSET_Y = 20
 
 # Bullet settings
 SHOOT_COOLDOWN = 10
-BULLET_SCALE = 1.4
+BULLET_SCALE = .01
 BULLET_SPEED = 50
 BULLET_LIFETIME = 750
+
+# Char Movement
+
