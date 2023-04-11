@@ -10,7 +10,7 @@ clock = pygame.time.Clock()
 
 # Load backgrounds
 background = pygame.image.load("assets/graphics/environment/littleBunnyKungFuFu.png").convert_alpha()
-sprite_sheet_image = pygame.image.load('assets/graphics/character/bunnyFuSpritesheet.png.png').convert_alpha()
+sprite_sheet_image = pygame.image.load('assets/graphics/character/bunnyFuSpritesheet.png').convert_alpha()
 
 #### Need to figure out how to put into a class ####
 
