@@ -12,6 +12,7 @@ class Game:
 
         self.character_spritesheet = Spritesheet("assets/gfx/character.png")
         self.terrain_spritesheet = Spritesheet('assets/gfx/terrain.png')
+        self.enemy_spritesheet = Spritesheet('assets/gfx/enemy.png')
 
     def createTilemap(self):
         for i, row in enumerate(tilemap):
@@ -19,6 +20,8 @@ class Game:
                 Ground(self, j, i)
                 if column == "B":
                     Block(self, j, i)
+                if column == "E":
+                    Enemy(self, j, i)
                 if column == "P":
                     Player(self, j, i)
 
