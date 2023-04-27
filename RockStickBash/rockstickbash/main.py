@@ -82,7 +82,7 @@ class Game:
         text = self.font.render('Game Over', True, WHITE)
         text_rect = text.get_rect(center=(WIN_WIDTH/2, WIN_HEIGHT/2))
 
-        restart_button = Button(10, WIN_HEIGHT - 60, 120, 50, WHITE, BLACK, 'Restart', 32)
+        restart_button = Button(260, WIN_HEIGHT - 60, 120, 50, WHITE, BLACK, 'Restart', 32)
 
         for sprite in self.all_sprites:
             sprite.kill()
@@ -110,10 +110,10 @@ class Game:
     def intro_screen(self):
         intro = True
 
-        title = self.font.render('BIG DADDY DAY OFF', True, BLACK)
-        title_rect = title.get_rect(x=10, y=10)
+        title = self.font.render('Hit Stuff with Sticks', True, BLACK)
+        title_rect = title.get_rect(x=170, y=180)
 
-        play_button = Button(10, 50, 100, 50, WHITE, BLACK, 'Play', 32)
+        play_button = Button(280, 240, 100, 50, WHITE, BLACK, 'Play', 32)
 
         while intro:
             for event in pygame.event.get():

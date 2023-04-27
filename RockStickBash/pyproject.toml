@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "misctutorial"
+name = "rockstickbash"
 version = "0.1.0"
 description = ""
 authors = ["Ken Davis <kd_112@protonmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 pygame = "^2.3.0"
 
 
