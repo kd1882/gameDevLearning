@@ -416,9 +416,3 @@ class Attack(pygame.sprite.Sprite):
                 self.animation_loop += 0.5
                 if self.animation_loop >= 5:
                     self.kill()
-
-
-
-
-
-        

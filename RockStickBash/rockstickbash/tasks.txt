@@ -1,0 +1,27 @@
+- fix camera
+
+- add pick-up mechanism for items
+    - different sticks have greater length
+
+- add rock-throwing
+
+- add pick-up mechanism for rocks
+    - ammunition counter
+
+- add angled throwing
+
+- three levels
+    - forest
+    - desert
+    - volcano
+
+- swap out sprites/graphics
+
+- improve enemy AI
+
+- improve title screen
+    - exit option
+
+- add pause screen with exit to main menu
+
+- add you win! screen

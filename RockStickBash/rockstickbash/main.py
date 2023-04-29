@@ -7,6 +7,7 @@ class Game:
     def __init__(self):
         pygame.init()
         self.screen = pygame.display.set_mode((WIN_WIDTH, WIN_HEIGHT))
+        self.windowTitle = pygame.display.set_caption('Rock, Stick, Bash')
         self.clock = pygame.time.Clock()
         self.running = True
         self.font = pygame.font.Font('assets/fonts/TiltPrism-Regular.ttf', 32)
@@ -110,7 +111,7 @@ class Game:
     def intro_screen(self):
         intro = True
 
-        title = self.font.render('Hit Stuff with Sticks', True, BLACK)
+        title = self.font.render('Rock, Stick, Bash', True, BLACK)
         title_rect = title.get_rect(x=170, y=180)
 
         play_button = Button(280, 240, 100, 50, WHITE, BLACK, 'Play', 32)
