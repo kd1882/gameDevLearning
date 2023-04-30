@@ -1,6 +1,10 @@
-- fix camera
+- fix camera (done)
+    - Fix player spawn in location (Still need to work out)
+    - improve borders (done)
+
 
 - add pick-up mechanism for items
+    - weapon swap
     - different sticks have greater length
 
 - add rock-throwing
